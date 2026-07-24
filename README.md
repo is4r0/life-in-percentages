@@ -1,47 +1,119 @@
-# Life in Percentages
-
-**Your days are becoming years.**
-
-Life in Percentages is a visually powerful self-awareness experience where users enter their daily habits, and the website transforms those routines into shocking lifetime statistics.
-
-<img width="1887" height="1036" alt="image" src="https://github.com/user-attachments/assets/a63daabe-f738-4d9a-bda2-ab1855d047ae" />
-
-<img width="1887" height="1025" alt="image" src="https://github.com/user-attachments/assets/e6c0e9a7-1400-43ae-9f62-85ec259deea2" />
-
-
 ## ✨ Features
 
-- **Premium Aesthetic**: Minimalist charcoal and gold design language.
-- **Cinematic Experience**: Smooth scroll-triggered storytelling and reveal scenes.
-- **Procedural Audio**: Emotional ambient soundtrack and SFX generated with Web Audio API.
-- **Real-time Insights**: Habit sliders show immediate lifetime impact.
-- **Reflection Engine**: Calculates years spent on sleep, screens, movement, and connection.
+-   🎯 **Dynamic Percentage Visualization**: Input custom values and see them instantly converted into clear, understandable percentages.
+-   📊 **Interactive Data Input**: Easily add, update, and manage the data points you want to visualize.
+-   📱 **Responsive User Interface**: Enjoy a seamless experience across all devices, from desktops to mobile phones.
+-   ✨ **Modern & Clean Design**: A user-friendly interface powered by Tailwind CSS for an aesthetic and efficient experience.
+-   ⚡ **Fast and Efficient**: Using Next.js for optimal performance and a smooth user experience.
+
+## 🖥️ Screenshots
+
+<img width="1887" height="1036" alt="image" src="https://github.com/user-attachments/assets/e09d7a49-af13-43aa-baf1-02e614d1c7f3" />
+
+<img width="1887" height="1025" alt="image" src="https://github.com/user-attachments/assets/cff7eba3-364e-4da5-be50-bd9e3bb941e6" />
+
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 15
-- **Styling**: Tailwind CSS 4
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Audio**: Web Audio API (Procedural)
+**Frontend:**
 
-## 🚀 Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-Black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 
-2. Run the development server:
-   ```bash
-   npm run dev
-   ```
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-3. Open [http://localhost:3000](http://localhost:3000) to see the experience.
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-## 📈 Calculation Logic
+[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/)
 
-The experience assumes a default lifespan (configurable by the user, default 80 years) and calculates lifetime impact based on average daily hours:
-`Lifetime Years = (Daily Hours * 365 * Lifespan) / (365 * 24)`
+**Backend:**
 
-Created with ❤️ by Isar
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+
+**DevOps:**
+
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+## 🚀 Quick Start
+
+Follow these steps to get a development environment up and running on your local machine.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+-   **Node.js**: `^18.17.0` or higher (LTS recommended)
+-   **npm**: Comes with Node.js
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/is4r0/life-in-percentages.git
+    cd life-in-percentages
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Environment setup**
+    This project might use environment variables for various configurations (e.g., API keys, analytics IDs).
+    ```bash
+    cp .env.example .env # If a .env.example file is present
+    ```
+    If `.env.example` is not present, you might need to create a `.env.local` file manually if there are any specific local configurations required by Next.js or other tools.
+
+    <!-- TODO: List detected environment variables if an .env.example is provided. -->
+    ```
+    # Example .env.local content (adjust as needed)
+    # NEXT_PUBLIC_ANALYTICS_ID=YOUR_ANALYTICS_ID
+    ```
+
+4.  **Start development server**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Open your browser**
+    Visit `http://localhost:3000` to see the application running.
+
+## 📁 Project Structure
+
+```
+life-in-percentages/
+├── public/                 # Static assets (images, fonts, etc.)
+├── src/                    # Application source code
+│   └── app/                # Next.js App Router root (or 'pages' for Pages Router)
+│       └── ...             # Core application pages and components
+├── .env.local              # Local environment variables (not committed)
+├── eslint.config.mjs       # ESLint configuration
+├── next.config.ts          # Next.js configuration
+├── package.json            # Project dependencies and scripts
+├── package-lock.json       # npm lock file
+├── postcss.config.mjs      # PostCSS configuration (likely for Tailwind CSS)
+├── tsconfig.json           # TypeScript configuration
+├── AGENTS.md               # Additional documentation/notes
+└── CLAUDE.md               # Additional documentation/notes
+```
+
+## 🤝 Contributing
+
+We welcome contributions to "Life in Percentages"! If you have ideas for new features, improvements, or bug fixes, please feel free to:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature-name`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -m 'feat: Add new feature'`).
+5.  Push to the branch (`git push origin feature/your-feature-name`).
+6.  Open a Pull Request.
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful or interesting!**
+
+Made with ❤️ by [is4r0](https://github.com/is4r0)
+
+</div>
