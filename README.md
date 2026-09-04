@@ -98,16 +98,6 @@ life-in-percentages/
 └── CLAUDE.md               # Additional documentation/notes
 ```
 
-## 🤝 Contributing
-
-We welcome contributions to "Life in Percentages"! If you have ideas for new features, improvements, or bug fixes, please feel free to:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature-name`).
-3.  Make your changes.
-4.  Commit your changes (`git commit -m 'feat: Add new feature'`).
-5.  Push to the branch (`git push origin feature/your-feature-name`).
-6.  Open a Pull Request.
 ---
 
 <div align="center">
