@@ -5,7 +5,7 @@
 -   📱 **Responsive User Interface**: Enjoy a seamless experience across all devices, from desktops to mobile phones.
 -   ✨ **Modern & Clean Design**: A user-friendly interface powered by Tailwind CSS for an aesthetic and efficient experience.
 -   ⚡ **Fast and Efficient**: Using Next.js for optimal performance and a smooth user experience.
-
+ 
 ## 🖥️ Screenshots
 
 <img width="1887" height="1036" alt="image" src="https://github.com/user-attachments/assets/e09d7a49-af13-43aa-baf1-02e614d1c7f3" />
